@@ -13,7 +13,9 @@ pub struct ResultItem {
     pub job: Job,
     pub output: TaskOutput,
     pub err: Option<String>,
+    #[allow(dead_code)]
     pub finished_at: SystemTime,
+    #[allow(dead_code)]
     pub dur: Duration,
 }
 
